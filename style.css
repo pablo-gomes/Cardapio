@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    z-index: 1000;
+    width: 100%;
+    height: 150px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: cen;
+    align-items: center;
+    padding: 10px 100px;
+    gap: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.logo {
+    height: 150px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+/*------ MENU --------*/
+.Pesquisa{
+    border: 1px solid black;
+    height: 50px;
+    width: 300px ;
+    border-radius: 20px;
+}
+.menu {
+    width: 700px;
+
+
+}
+
+.menu ul {
+    display: flex;
+    border: 1px solid black;
+}
+
+.menu ul li a {
+    padding: 10px 20px;
+    color: #0D0D0D;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+  
+}
+
+.menu ul li a:hover {
+    color: transparent;
+}
+
+.logo img {
+    height: 130px;
+    margin-right: 20px;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+    font-family: "Stick No Bills", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color:#0D0D0D ;
+}
+
+/*--------home--------*/
+.LINHA {
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    background-image: url();
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid black;
+    width: 1200px;
+    padding-top: 120PX;
+}
+
+.Linha {
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*----------RODAPE--------*/
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rodape {
+    width: 400px;
+    height: 100%;
+    border: 1px solid black;
+
+}
