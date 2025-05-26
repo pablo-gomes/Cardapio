@@ -128,7 +128,10 @@ header {
     margin-left: 35%;
     margin-top: 2%;
 }
+.card img :hover{
+    color:transparent;
 
+}
 .Linha1 {
 
     width: 100%;
@@ -254,6 +257,5 @@ footer {
 .Rodape {
     width: 400px;
     height: 100%;
-    border: 1px solid black;
 
 }
