@@ -8,12 +8,15 @@
     outline: none;
     list-style: none;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-color: aliceblue;
+    background-color: #F2F2F2;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -41,34 +44,48 @@ header {
 }
 
 /*------ MENU --------*/
-.Pesquisa{
-    border: 1px solid black;
+.Pesquisa {
+    border: 2px solid black;
     height: 50px;
-    width: 300px ;
+    width: 300px;
     border-radius: 20px;
 }
+
+.Pesquisa img {
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+    margin-left: 4px;
+
+
+
+}
+
 .menu {
-    width: 700px;
+    width: 600px;
 
 
 }
 
 .menu ul {
     display: flex;
-    border: 1px solid black;
+
 }
 
 .menu ul li a {
-    padding: 10px 20px;
+    padding: 10px 12px;
     color: #0D0D0D;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 17px;
-  
+    font-size: 20px;
+
+
+
 }
 
 .menu ul li a:hover {
     color: transparent;
+    color: #F20505;
 }
 
 .logo img {
@@ -79,50 +96,156 @@ header {
 .logo h1 {
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: #F2F2F2;
 
     font-family: "Stick No Bills", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    color:#0D0D0D ;
+    color: #0D0D0D;
 }
 
 /*--------home--------*/
 .LINHA {
-    background-color: aqua;
+
     width: 100%;
     height: 100vh;
-    background-image: url();
+    background-image: url(Cardapio/hamburgueres-e-batatas-fritas-com-cerveja-e-copy-space.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
+    text-align: center;
+    padding-top: 200PX;
+}
+
+.Design {
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+.Linha1 {
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(Cardapio/prato-com-batatas-fritas-e-frango.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+.LINHA h1 {
+    padding-top: 60px;
+    color:#F2F2F2;
+    font-size: 70PX;
+    justify-content: center;
+    text-align: center;
+
+    font-family: "Stick No Bills", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.Linha2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Cardapio/hamburgueres-veganos-com-feijao-e-legumes.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Linha3 {
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(Cardapio/varias-sobremesas-cobertas-com-biscoito.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Linha4 {
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(Cardapio/refeicao-de-hamburguer-grelhado-com-batatas-fritas-e-ia-generativa-de-queijo.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
 }
 
 .container {
-    border: 1px solid black;
+
     width: 1200px;
-    padding-top: 120PX;
+
 }
+
 
 .Linha {
     width: 100%;
     height: 100vh;
-    background-color: beige;
+    background-color: #F2F2F2;
     border-bottom: 1px solid black;
     display: flex;
     justify-content: center;
 }
 
-html {
-    scroll-behavior: smooth;
+
+
+
+
+/*--------CARDS--------*/
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 25px;
 }
+
+.card {
+    margin-top: 20%;
+    width: 280px;
+    height: 350px;
+    background-color: #F2F2F2;
+
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+
+
+
+
+
+
+
 
 /*----------RODAPE--------*/
 footer {
     width: 100%;
     height: 100px;
-    background-color: aquamarine;
+    background-color: #F2F2F2;
     display: flex;
     justify-content: center;
     align-items: center;
