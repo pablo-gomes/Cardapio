@@ -273,6 +273,10 @@ header {
     padding-top: 10px;
 
 }
+.card-price h3 {
+    font-size: 12px;
+    padding-top: 5px;
+}
 
 .card:hover .card-image {
   opacity: 0.3;
