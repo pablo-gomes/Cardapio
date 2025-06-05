@@ -8,6 +8,7 @@
     outline: none;
     list-style: none;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -26,7 +27,7 @@ header {
     height: 150px;
     background-color: #F2F2F2;
     display: flex;
-    justify-content: cen;
+    justify-content: center;
     align-items: center;
     padding: 10px 100px;
     gap: 80px;
@@ -44,23 +45,18 @@ header {
 }
 
 /*------ MENU --------*/
-.Pesquisa {
+button {
     border: 2px solid black;
     height: 50px;
     width: 300px;
     border-radius: 20px;
+    font-size: 20px;
+    color: grey;
 }
-
-.Pesquisa img {
-    width: 30px;
-    height: 30px;
-    margin-top: 7px;
-    margin-left: 4px;
-
-
+button img{
+ height: 50px;
 
 }
-
 .menu {
     width: 600px;
 
@@ -128,10 +124,12 @@ header {
     margin-left: 35%;
     margin-top: 2%;
 }
-.card img :hover{
-    color:transparent;
+
+.card img :hover {
+    color: transparent;
 
 }
+
 .Linha1 {
 
     width: 100%;
@@ -145,7 +143,7 @@ header {
 
 .LINHA h1 {
     padding-top: 60px;
-    color:#F2F2F2;
+    color: #F2F2F2;
     font-size: 70PX;
     justify-content: center;
     text-align: center;
@@ -235,55 +233,63 @@ header {
     object-fit: cover;
 
 }
+
 /*--------cards efeito--------*/
 
 .card {
-  position: relative; 
-  overflow: hidden; 
- 
+    position: relative;
+    overflow: hidden;
+
+
+
 }
 
 
 .card-image {
-  opacity: 1;
-  transition: opacity 0.3s ease-in-out; 
-  display: block;
-  width: 100%; 
-  height: auto; 
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .card-price {
-  font-size: 12px;
-  position: absolute; 
-  bottom: -100%;
-  left: 0;
-  width: 100%;
-  background-color: #F2F2F2; 
-  color: #0D0D0D;
-  padding: 10px;
-  transition:  bottom 0.3s ease-in-out;
-  font-family:sans-serif;
+    font-size: 12px;
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: #F2F2F2;
+    color: #0D0D0D;
+    padding: 10px;
+    transition: bottom 0.3s ease-in-out;
+    font-family: sans-serif;
+
+
 }
-.card-price ul li{
+
+.card-price ul li {
     margin: 10px 0;
     text-align: left;
 }
-.card-price h1{
+
+.card-price h1 {
     font-size: 20px;
     padding-top: 0px;
 
 }
+
 .card-price h3 {
     font-size: 12px;
     padding-top: 5px;
 }
 
 .card:hover .card-image {
-  opacity: 0.3;
+    opacity: 0.3;
 }
 
 .card:hover .card-price {
-  bottom: 0;
+    bottom: 0;
 }
 
 
